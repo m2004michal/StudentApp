@@ -1,1 +1,2 @@
 from .register import RegisterSerializer
+from .token import CustomTokenObtainPairSerializer
