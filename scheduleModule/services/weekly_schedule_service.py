@@ -1,1 +1,3 @@
-def get_or_create_weekly_schedule():
+from datetime import date, timedelta
+
+from scheduleModule.models import WeeklySchedule

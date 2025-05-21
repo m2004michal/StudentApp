@@ -1,3 +1,3 @@
-from .schedule_models import WeeklySchedule
+from .schedule_models import DailySchedule
 
-__all__ = ['WeeklySchedule']
+__all__ = ['DailySchedule']
