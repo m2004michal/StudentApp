@@ -25,7 +25,8 @@ class DailySchedule(models.Model):
 
 
 class WeeklySchedule(models.Model):
-
+    week_start_date = models.DateTimeField(null=True, blank=True, default=None)
+    week_end_date = models.DateTimeField(null=True, blank=True, default=None)
     monday = models.OneToOneField(DailySchedule, on_delete=models.CASCADE, related_name='monday_schedule')
     tuesday = models.OneToOneField(DailySchedule, on_delete=models.CASCADE, related_name='tuesday_schedule')
     wednesday = models.OneToOneField(DailySchedule, on_delete=models.CASCADE, related_name='wednesday_schedule')
