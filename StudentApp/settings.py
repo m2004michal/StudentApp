@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'authentication',
     'rest_framework_simplejwt.token_blacklist',
-    'lessonsModule',
+    'scheduleModule',
 
     # "StudentApp",
 ]

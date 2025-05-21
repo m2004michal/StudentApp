@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6734ef7f-0646-4e3d-ba8e-ce6bc48acf97" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/scheduleModule/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduleModule/models/schedule_models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessonsModule/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduleModule/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,18 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "m2004michal"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;m2004michal&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/m2004michal/StudentApp.git",
-    "accountId": "f3ba3ad0-bb65-4413-bea2-136f4ecdfb36"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/m2004michal/StudentApp.git&quot;,
+    &quot;accountId&quot;: &quot;f3ba3ad0-bb65-4413-bea2-136f4ecdfb36&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/django/contrib/auth/admin.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/django/core/handlers/base.py" root0="SKIP_INSPECTION" />
@@ -126,6 +129,7 @@
       <workItem from="1747649492811" duration="1844000" />
       <workItem from="1747760850430" duration="1978000" />
       <workItem from="1747767524146" duration="370000" />
+      <workItem from="1747840256633" duration="1468000" />
     </task>
     <servers />
   </component>
