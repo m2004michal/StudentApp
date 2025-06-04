@@ -1,11 +1,16 @@
 from datetime import datetime
 
+from django.views.generic import DeleteView
 from rest_framework import status
+from rest_framework.generics import CreateAPIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework.generics import DestroyAPIView
 
+from scheduleModule.models.task_models import Task
 from scheduleModule.serializers.daily_schedule_serializer import DailyScheduleSerializer
+from scheduleModule.serializers.task_serializer import TaskSerializer
 from scheduleModule.services.daily_schedule_service import get_daily_schedule_for_user_and_date, \
     get_or_create_daily_schedule_for_user_and_date
 
@@ -40,4 +45,18 @@ class DailyScheduleAutoCreateView(APIView):
         serializer = DailyScheduleSerializer(schedule)
         return Response(serializer.data)
 
+class TaskCreateView(CreateAPIView):
+    permission_classes = [IsAuthenticated]
 
+    queryset = Task.objects.all()
+    serializer_class = TaskSerializer
+
+
+class TaskDeleteView(DestroyAPIView):
+    permission_classes = [IsAuthenticated]
+    queryset = Task.objects.all()
+    serializer_class = TaskSerializer
+    lookup_field = 'id'
+
+    def get_queryset(self):
+        return self.queryset.filter(daily_schedule__user=self.request.user)

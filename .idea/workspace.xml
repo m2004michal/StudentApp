@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6734ef7f-0646-4e3d-ba8e-ce6bc48acf97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scheduleModule/serializers/daily_schedule_serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduleModule/services/daily_schedule_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduleModule/models/task_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheduleModule/serializers/task_serializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheduleModule/services/weekly_schedule_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduleModule/models/schedule_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduleModule/models/schedule_models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scheduleModule/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduleModule/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +67,7 @@
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -134,7 +136,9 @@
       <workItem from="1747649492811" duration="1844000" />
       <workItem from="1747760850430" duration="1978000" />
       <workItem from="1747767524146" duration="370000" />
-      <workItem from="1747840256633" duration="3851000" />
+      <workItem from="1747840256633" duration="5519000" />
+      <workItem from="1747849447718" duration="747000" />
+      <workItem from="1749051720986" duration="1228000" />
     </task>
     <servers />
   </component>
