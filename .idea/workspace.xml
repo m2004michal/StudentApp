@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6734ef7f-0646-4e3d-ba8e-ce6bc48acf97" name="Changes" comment="cleanup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marksModule/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/marksModule/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scheduleModule/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduleModule/views.py" afterDir="false" />
     </list>
@@ -142,7 +140,7 @@
       <workItem from="1747849447718" duration="747000" />
       <workItem from="1749051720986" duration="1285000" />
       <workItem from="1749459496210" duration="3230000" />
-      <workItem from="1749485277602" duration="2124000" />
+      <workItem from="1749485277602" duration="2458000" />
     </task>
     <task id="LOCAL-00001" summary="implemented add and delete api">
       <option name="closed" value="true" />

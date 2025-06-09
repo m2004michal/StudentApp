@@ -88,3 +88,4 @@ class ExportScheduleCSVView(APIView):
                     task.location,
                 ])
         return response
+
