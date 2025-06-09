@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6734ef7f-0646-4e3d-ba8e-ce6bc48acf97" name="Changes" comment="del" />
+    <list default="true" id="6734ef7f-0646-4e3d-ba8e-ce6bc48acf97" name="Changes" comment="cleanup">
+      <change afterPath="$PROJECT_DIR$/marksModule/models/MarkModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marksModule/serializers/MarkSerializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marksModule/service/MarksService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marksModule/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentApp/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,29 +61,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Django Server.StudentApp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/micha/PycharmProjects/StudentApp/scheduleModule&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Django Server.StudentApp.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/micha/PycharmProjects/StudentApp/marksModule",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\micha\PycharmProjects\StudentApp\StudentApp" />
       <recent name="C:\Users\micha\PycharmProjects\StudentApp\scheduleModule" />
+      <recent name="C:\Users\micha\PycharmProjects\StudentApp\marksModule" />
+      <recent name="C:\Users\micha\PycharmProjects\StudentApp\marksModule\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\micha\PycharmProjects\StudentApp" />
@@ -131,7 +142,8 @@
       <workItem from="1747840256633" duration="5519000" />
       <workItem from="1747849447718" duration="747000" />
       <workItem from="1749051720986" duration="1285000" />
-      <workItem from="1749459496210" duration="2823000" />
+      <workItem from="1749459496210" duration="3230000" />
+      <workItem from="1749485277602" duration="1480000" />
     </task>
     <task id="LOCAL-00001" summary="implemented add and delete api">
       <option name="closed" value="true" />
@@ -165,7 +177,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749471800758</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="included migrations">
+      <option name="closed" value="true" />
+      <created>1749472012843</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749472012843</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cleanup">
+      <option name="closed" value="true" />
+      <created>1749472074443</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749472074443</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +204,8 @@
     <MESSAGE value="." />
     <MESSAGE value="changed schedule response to include tasks" />
     <MESSAGE value="del" />
-    <option name="LAST_COMMIT_MESSAGE" value="del" />
+    <MESSAGE value="included migrations" />
+    <MESSAGE value="cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
   </component>
 </project>

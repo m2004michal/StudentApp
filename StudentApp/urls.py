@@ -2,7 +2,7 @@
 from django.urls import path
 from authentication.views import RegisterView, CustomLoginView, LogoutView
 from scheduleModule.views import DailyScheduleByDateView, DailyScheduleAutoCreateView, TaskCreateView, TaskDeleteView
-
+from marksModule.views import DeleteMarkView, AddMarkView
 urlpatterns = [
     path('register/', RegisterView.as_view(), name='register'),
     path('login/', CustomLoginView.as_view(), name='login'),
@@ -12,6 +12,8 @@ urlpatterns = [
          name='daily-schedule-get-or-create'),
     path('tasks/create/', TaskCreateView.as_view(), name='task-create'),
     path('tasks/delete/<int:id>', TaskDeleteView.as_view(), name='task-delete'),
+    path('marks/add/', AddMarkView.as_view(), name='add-mark'),
+    path('marks/delete/<int:mark_id>/', DeleteMarkView.as_view(), name='delete-mark'),
 
 
 ]
