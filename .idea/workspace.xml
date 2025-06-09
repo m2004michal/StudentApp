@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6734ef7f-0646-4e3d-ba8e-ce6bc48acf97" name="Changes" comment="changed schedule response to include tasks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheduleModule/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/scheduleModule/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="6734ef7f-0646-4e3d-ba8e-ce6bc48acf97" name="Changes" comment="del" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +131,7 @@
       <workItem from="1747840256633" duration="5519000" />
       <workItem from="1747849447718" duration="747000" />
       <workItem from="1749051720986" duration="1285000" />
-      <workItem from="1749459496210" duration="2523000" />
+      <workItem from="1749459496210" duration="2823000" />
     </task>
     <task id="LOCAL-00001" summary="implemented add and delete api">
       <option name="closed" value="true" />
@@ -162,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749470476790</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="del">
+      <option name="closed" value="true" />
+      <created>1749471800758</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749471800758</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +175,7 @@
     <MESSAGE value="implemented add and delete api" />
     <MESSAGE value="." />
     <MESSAGE value="changed schedule response to include tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed schedule response to include tasks" />
+    <MESSAGE value="del" />
+    <option name="LAST_COMMIT_MESSAGE" value="del" />
   </component>
 </project>
