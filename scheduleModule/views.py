@@ -59,4 +59,5 @@ class TaskDeleteView(DestroyAPIView):
     lookup_field = 'id'
 
     def get_queryset(self):
-        return self.queryset.filter(daily_schedule__user=self.request.user)
+        return self.queryset.filter(schedule__user=self.request.user)
+
