@@ -1,13 +1,18 @@
+import csv
 from datetime import datetime
 
+from django.http import HttpResponse
 from django.views.generic import DeleteView
-from rest_framework import status
+from rest_framework import status, permissions
 from rest_framework.generics import CreateAPIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.generics import DestroyAPIView
 
+from marksModule.models import MarkModel
+from marksModule.serializers.MarkSerializer import MarkSerializer
+from scheduleModule.models import DailySchedule
 from scheduleModule.models.task_models import Task
 from scheduleModule.serializers.daily_schedule_serializer import DailyScheduleSerializer
 from scheduleModule.serializers.task_serializer import TaskSerializer
@@ -61,3 +66,25 @@ class TaskDeleteView(DestroyAPIView):
     def get_queryset(self):
         return self.queryset.filter(schedule__user=self.request.user)
 
+
+class ExportScheduleCSVView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get(self, request):
+        schedules = DailySchedule.objects.filter(user=request.user).prefetch_related("tasks")
+        response = HttpResponse(content_type="text/csv")
+        response['Content-Disposition'] = 'attachment; filename="plan_zajec.csv"'
+
+        writer = csv.writer(response)
+        writer.writerow(["Data", "Tytuł", "Godzina rozpoczęcia", "Godzina zakończenia", "Lokalizacja"])
+
+        for schedule in schedules:
+            for task in schedule.tasks.all():
+                writer.writerow([
+                    schedule.Date,
+                    task.title,
+                    task.start_time,
+                    task.end_time,
+                    task.location,
+                ])
+        return response
